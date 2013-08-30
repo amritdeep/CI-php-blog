@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://localhost:90/CI-php-blog/';
+$config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
 
 /*
 |--------------------------------------------------------------------------
