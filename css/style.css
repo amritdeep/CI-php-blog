@@ -1,0 +1,38 @@
+lable{
+	display: block;
+}
+
+.error{
+	color: #242432;
+	font-size: italic;
+}
+
+#newsletter_form{
+	background: #a3a3a3;
+	width: 20%;
+	margin: 5em auto 0;
+	padding: 32px;
+	border: 1px solid #a5a5a5;
+}
+
+#newsletter_form form input[type-text]{
+	width: 100%;
+}
+
+h2{
+	margin top: -54px;
+	color: #abo2434;
+	font-family: arial;
+}
+
+input[type-submit]{
+	border: 1px solid #c42342;
+	background: #ce2342;
+	color: #ocrs234;
+	padding: -5em;
+	cursor: pointer;
+}
+
+input[type-submit]:hover{
+	background: #8a22222;
+}
