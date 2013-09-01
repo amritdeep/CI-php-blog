@@ -18,6 +18,7 @@
 
 	<?php echo form_close(); ?>
 
+	<?php echo $this->pagination->create_links();?>
 	<h2>Read</h2>
 	<?php if(isset($records)) : foreach($records as $row) : ?>
 	<h3><?php echo anchor("site/delete/$row->id", $row->title); ?></h3>

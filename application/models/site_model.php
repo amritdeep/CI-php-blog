@@ -17,7 +17,7 @@ class Site_model extends CI_Model{
 	}
 
 	function delete_row(){
-		$this->db->where('id', $this->url->segment(3));
+		$this->db->where('id', $this->uri->segment(3));
 		$this->db->delete('data');
 	}
 }
